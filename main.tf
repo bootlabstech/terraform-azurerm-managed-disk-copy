@@ -8,9 +8,9 @@ resource "azurerm_managed_disk" "disk" {
   source_resource_id   = var.source_resource_id
   os_type              = var.os_type
   hyper_v_generation   = var.hyper_v_generation   
-  disk_iops_read_only  = var.disk_iops_read_only 
-  disk_iops_read_write = var.disk_iops_read_write
-  disk_mbps_read_only  = var.disk_mbps_read_only 
-  disk_mbps_read_write = var.disk_mbps_read_write
-  
+#   disk_iops_read_only  = var.disk_iops_read_only 
+#   disk_iops_read_write = var.disk_iops_read_write
+#   disk_mbps_read_only  = var.disk_mbps_read_only 
+#   disk_mbps_read_write = var.disk_mbps_read_write
+
 }

@@ -42,20 +42,20 @@ variable "hyper_v_generation" {
   description = "The name of the disk"
 }
 
-variable "disk_iops_read_only" {
-  type = string
-  description = "The self link of vm"
-}
-variable "disk_iops_read_write"{
-  type = string 
-  description = "The self link of vm"
-}
-variable "disk_mbps_read_only" {
-  type        = string
-  description = "The name of the disk"
-}
+# variable "disk_iops_read_only" {
+#   type = string
+#   description = "The self link of vm"
+# }
+# variable "disk_iops_read_write"{
+#   type = string 
+#   description = "The self link of vm"
+# }
+# variable "disk_mbps_read_only" {
+#   type        = string
+#   description = "The name of the disk"
+# }
 
-variable "disk_mbps_read_write" {
-  type = string
-  description = "The self link of vm"
-}
+# variable "disk_mbps_read_write" {
+#   type = string
+#   description = "The self link of vm"
+# }
