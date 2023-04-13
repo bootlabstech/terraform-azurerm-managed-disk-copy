@@ -1,3 +1,4 @@
+# Disk from snapshot
 variable "resource_group_name" {
   type        = string
   description = "name of the resource group"
@@ -41,21 +42,3 @@ variable "hyper_v_generation" {
   type        = string
   description = "The name of the disk"
 }
-
-# variable "disk_iops_read_only" {
-#   type = string
-#   description = "The self link of vm"
-# }
-# variable "disk_iops_read_write"{
-#   type = string 
-#   description = "The self link of vm"
-# }
-# variable "disk_mbps_read_only" {
-#   type        = string
-#   description = "The name of the disk"
-# }
-
-# variable "disk_mbps_read_write" {
-#   type = string
-#   description = "The self link of vm"
-# }
