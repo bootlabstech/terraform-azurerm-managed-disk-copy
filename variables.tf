@@ -41,4 +41,5 @@ variable "os_type"{
 variable "hyper_v_generation" {
   type        = string
   description = "The name of the disk"
+  default = "V1"
 }
